@@ -1,0 +1,50 @@
+2024-09-25 19:31 - INFO - ------------------------------------STARTING------------------------------------
+2024-09-25 19:31 - DEBUG - CompletedProcess(args=['wmctrl', '-m'], returncode=0, stdout='Name: Fluxbox\nClass: N/A\nPID: N/A\nWindow manager\'s "showing the desktop" mode: N/A\n', stderr='')
+2024-09-25 19:31 - INFO - res.stdout='Name: Fluxbox\nClass: N/A\nPID: N/A\nWindow manager\'s "showing the desktop" mode: N/A\n'
+2024-09-25 19:31 - INFO - Opening app - Krita
+2024-09-25 19:31 - INFO - Opening app - Gimp
+2024-09-25 19:31 - INFO - taking screenshot - krita_start
+2024-09-25 19:31 - DEBUG - STREAM b'IHDR' 16 13
+2024-09-25 19:31 - DEBUG - STREAM b'sBIT' 41 3
+2024-09-25 19:31 - DEBUG - b'sBIT' 41 3 (unknown)
+2024-09-25 19:31 - DEBUG - STREAM b'tEXt' 56 25
+2024-09-25 19:31 - DEBUG - STREAM b'IDAT' 93 8192
+2024-09-25 19:31 - INFO - Runninng test commands on - Krita
+2024-09-25 19:31 - DEBUG - CompletedProcess(args=['xdotool', 'getactivewindow'], returncode=0, stdout='4194331\n', stderr='')
+2024-09-25 19:31 - INFO - res.stdout='4194331\n'
+2024-09-25 19:31 - DEBUG - CompletedProcess(args=['xdotool', 'search', '--name', 'Krita'], returncode=0, stdout='4194308\n4194316\n4194322\n', stderr='')
+2024-09-25 19:31 - INFO - res.stdout='4194308\n4194316\n4194322\n'
+2024-09-25 19:31 - DEBUG - CompletedProcess(args=['xdotool', 'windowactivate', '4194308'], returncode=0, stdout='', stderr='XGetWindowProperty[_NET_WM_DESKTOP] failed (code=1)\n')
+2024-09-25 19:31 - WARNING - XGetWindowProperty[_NET_WM_DESKTOP] failed (code=1)
+
+2024-09-25 19:31 - DEBUG - CompletedProcess(args=['xdotool', 'key', 'Shift+Ctrl+f'], returncode=0, stdout='', stderr='')
+2024-09-25 19:31 - DEBUG - CompletedProcess(args=['xdotool', 'key', 'Ctrl+n'], returncode=0, stdout='', stderr='')
+2024-09-25 19:31 - DEBUG - CompletedProcess(args=['xdotool', 'key', 'Alt_L+c'], returncode=0, stdout='', stderr='')
+2024-09-25 19:31 - INFO - taking screenshot - krita_end
+2024-09-25 19:32 - DEBUG - STREAM b'IHDR' 16 13
+2024-09-25 19:32 - DEBUG - STREAM b'sBIT' 41 3
+2024-09-25 19:32 - DEBUG - b'sBIT' 41 3 (unknown)
+2024-09-25 19:32 - DEBUG - STREAM b'tEXt' 56 25
+2024-09-25 19:32 - DEBUG - STREAM b'IDAT' 93 8192
+2024-09-25 19:32 - INFO - taking screenshot - gimp_start
+2024-09-25 19:32 - DEBUG - STREAM b'IHDR' 16 13
+2024-09-25 19:32 - DEBUG - STREAM b'sBIT' 41 3
+2024-09-25 19:32 - DEBUG - b'sBIT' 41 3 (unknown)
+2024-09-25 19:32 - DEBUG - STREAM b'tEXt' 56 25
+2024-09-25 19:32 - DEBUG - STREAM b'IDAT' 93 8192
+2024-09-25 19:32 - INFO - Runninng test commands on - GNU Image Manipulation Program
+2024-09-25 19:32 - DEBUG - CompletedProcess(args=['xdotool', 'getactivewindow'], returncode=0, stdout='4194948\n', stderr='')
+2024-09-25 19:32 - INFO - res.stdout='4194948\n'
+2024-09-25 19:32 - DEBUG - CompletedProcess(args=['xdotool', 'search', '--name', 'GNU Image Manipulation Program'], returncode=0, stdout='4194305\n4194948\n', stderr='')
+2024-09-25 19:32 - INFO - res.stdout='4194305\n4194948\n'
+2024-09-25 19:32 - DEBUG - CompletedProcess(args=['xdotool', 'windowactivate', '4194305'], returncode=0, stdout='', stderr='XGetWindowProperty[_NET_WM_DESKTOP] failed (code=1)\n')
+2024-09-25 19:32 - WARNING - XGetWindowProperty[_NET_WM_DESKTOP] failed (code=1)
+
+2024-09-25 19:32 - DEBUG - CompletedProcess(args=['xdotool', 'key', 'F11'], returncode=0, stdout='', stderr='')
+2024-09-25 19:32 - INFO - taking screenshot - gimp_end
+2024-09-25 19:32 - DEBUG - STREAM b'IHDR' 16 13
+2024-09-25 19:32 - DEBUG - STREAM b'sBIT' 41 3
+2024-09-25 19:32 - DEBUG - b'sBIT' 41 3 (unknown)
+2024-09-25 19:32 - DEBUG - STREAM b'tEXt' 56 25
+2024-09-25 19:32 - DEBUG - STREAM b'IDAT' 93 8192
+2024-09-25 19:32 - INFO - -------------------------------------ENDING-------------------------------------

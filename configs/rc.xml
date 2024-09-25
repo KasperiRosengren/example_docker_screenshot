@@ -1,0 +1,7 @@
+<applications>
+  <!-- Enable features for windows -->
+  <application class="*">
+    <focus>yes</focus>
+    <maximize>yes</maximize>
+  </application>
+</applications>
