@@ -22,7 +22,7 @@ RUN apt-get update && apt-get install -y \
 
 #openbox
 
-RUN pip install pyautogui pillow pywinctl
+RUN pip install pyautogui pillow pywinctl opencv-python-headless
 
 WORKDIR /app
 
